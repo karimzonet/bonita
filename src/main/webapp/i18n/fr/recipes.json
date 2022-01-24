@@ -1,0 +1,25 @@
+{
+  "bonitaApp": {
+    "recipes": {
+      "home": {
+        "title": "Recipes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Recipes",
+        "createOrEditLabel": "Créer ou éditer un Recipes",
+        "notFound": "Aucun Recipes trouvé"
+      },
+      "created": "Un nouveau Recipes a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Recipes avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Recipes avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Recipes {{ id }} ?"
+      },
+      "detail": {
+        "title": "Recipes"
+      },
+      "id": "ID",
+      "recipesName": "Recipes Name",
+      "user": "User"
+    }
+  }
+}

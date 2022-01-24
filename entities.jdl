@@ -1,0 +1,15 @@
+entity Recipes {
+	recipesName String required
+}
+
+
+entity Comment {
+	commentContent TextBlob required
+}
+
+relationship ManyToOne{
+Recipes {user(login)} to User
+Comment{recipes(recipesName)} to Recipes
+}
+
+paginate Recipes with infinite-scroll

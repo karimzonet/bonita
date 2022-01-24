@@ -1,0 +1,30 @@
+{
+  "name": "Comment",
+  "fields": [
+    {
+      "fieldName": "commentContent",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "recipes",
+      "otherEntityRelationshipName": "comment",
+      "relationshipName": "recipes",
+      "otherEntityField": "recipesName"
+    }
+  ],
+  "entityTableName": "comment",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20220123033923"
+}
